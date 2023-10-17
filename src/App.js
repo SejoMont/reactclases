@@ -1,12 +1,13 @@
-import logo from './logo.svg';
+import logo from './cangrejo.png';
+import djmango from './djmango.png'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+      {/* <header className="App-header"> */}
+        <img src={djmango} className="App-logo" alt="logo" />
+        {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -16,8 +17,8 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
-      </header>
+        </a> */}
+      {/* </header> */}
     </div>
   );
 }
